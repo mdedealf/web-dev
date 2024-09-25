@@ -24,11 +24,15 @@
 
 /* Main article section */
 .main-article-wrapper {
-  position: relative;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 30px;
+}
+
+.article-details {
+  position: relative;
+  display: flex;
+  justify-content: end;
 }
 
 .article-details img {
@@ -49,7 +53,7 @@
 
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: end;
   column-gap: 30px;
 }
 
