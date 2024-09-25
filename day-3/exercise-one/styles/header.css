@@ -1,25 +1,41 @@
 header {
   height: 50px;
-  background-color: #c4c4c4;
+  background-color: rgba(196, 196, 196, 0.85);
   font-family: Open sans;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
 }
 
-header .header-container {
+.header-container {
   height: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
   padding: 0 20px;
+}
+
+.header-left {
+  position: relative;
 }
 
 .header-left a {
   text-decoration: underline;
   font-size: 14px;
+  line-height: 19px;
+  text-align: center;
   color: #000000;
   font-weight: 400;
 }
 
 .header-right {
+  position: absolute;
+  left: 50%;
+  transform: translateX(100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,6 +49,29 @@ header .header-container {
 }
 
 .header-menu a {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header-action .favourite {
+  margin: 0 21px 0 14px;
+}
+
+.header-action .shoping-bag {
+  margin-right: 4px;
+}
+
+.header-action a {
   font-size: 14px;
   color: #000000;
   font-weight: 400;
