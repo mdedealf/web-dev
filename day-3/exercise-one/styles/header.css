@@ -32,6 +32,10 @@ header {
   font-weight: 400;
 }
 
+.header-left a:hover {
+  color: rgb(230, 20, 20);
+}
+
 .header-right {
   position: absolute;
   left: 50%;

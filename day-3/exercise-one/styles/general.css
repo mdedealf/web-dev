@@ -13,3 +13,8 @@ span {
 main {
   background-color: #f4f5f7;
 }
+
+@font-face {
+  font-family: Modern;
+  src: url(../assets/fonts/modernn20.ttf);
+}

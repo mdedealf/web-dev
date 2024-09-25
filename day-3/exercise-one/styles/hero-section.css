@@ -10,6 +10,7 @@
 }
 
 .hero-title h1 {
+  font-family: Modern;
   font-size: 48px;
   font-weight: 400;
   line-height: 52px;
@@ -21,11 +22,13 @@
 }
 
 .hero-section .hero-menu a {
+  font-family: Modern;
   margin: 0 33px;
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
   line-height: 19px;
+  text-align: center;
   color: #000000;
   cursor: pointer;
 }
@@ -56,6 +59,7 @@
   font-weight: 400;
   line-height: 38px;
   text-align: center;
+  font-family: Modern;
 }
 
 .hero-description p {
