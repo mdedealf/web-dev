@@ -1,0 +1,50 @@
+.banner-section {
+  margin: 152px 0 27px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Open Sans;
+}
+
+.banner-image {
+  position: relative;
+}
+
+.banner-image img {
+  width: 1236px;
+  height: 581px;
+  object-fit: cover;
+}
+
+.banner-description {
+  position: absolute;
+  right: 41px;
+  bottom: 41px;
+  z-index: 2;
+}
+
+.banner-image .banner-description h1 {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 35%;
+  text-align: center;
+}
+
+.banner-image .banner-description button {
+  margin-top: 42px;
+  padding: 19px 41px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+}
+
+.banner-image .banner-description button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}

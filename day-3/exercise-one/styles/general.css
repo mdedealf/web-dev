@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #f4f5f7;
+}

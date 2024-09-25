@@ -1,0 +1,85 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  margin: 22px 0;
+}
+
+.hero-title h1 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: center;
+}
+
+.hero-section .hero-menu {
+  margin-bottom: 18px;
+}
+
+.hero-section .hero-menu a {
+  margin: 0 33px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.hero-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section .hero-page img {
+  width: 1236px;
+  height: 690px;
+  object-fit: cover;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-description h1 {
+  margin: 26px 0 14px 0;
+  font-size: 36px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+}
+
+.hero-description p {
+  font-family: Open Sans;
+  font-size: 18px;
+  width: 400px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.hero-description .hero-button {
+  padding: 19px 55px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  font-family: Open Sans;
+  cursor: pointer;
+  border-radius: 1px;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+
+.hero-description .hero-button:hover {
+  background-color: rgba(255, 255, 255, 0.85);
+}
