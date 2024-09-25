@@ -4,22 +4,144 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Articler</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.svg" />
 
     <!-- Import google fonts -->
+    <!-- Lato Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Kaisei Decol font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import style css -->
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/popular-works.css" />
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav class="header-navigation">
+        <img
+          class="header-logo"
+          src="./assets/images/logo.svg"
+          alt="Logo image"
+        />
+        <div class="header-menu">
+          <a href="#">Homepage</a>
+          <a href="#">News</a>
+          <a href="#">About us</a>
+          <a href="#">Contacts</a>
+        </div>
+        <div class="header-action">
+          <img src="./assets/icons/search.svg" alt="search icon" />
+          <button>Get Articler</button>
+        </div>
+      </nav>
     </header>
     <main>
-      <section>
-        
+      <section class="hero">
+        <div class="hero-container-left">
+          <h1>Submit your article and join our network!</h1>
+          <p>
+            Don't waste time and join our community of authors! Share your
+            knowledge and experience with our readers and get the opportunity to
+            become a part of our professional and creative team!
+          </p>
+          <div class="hero-cta">
+            <img src="./assets/icons/right-arrow.svg" alt="right arrow icon" />
+            <button>Submit Article</button>
+          </div>
+        </div>
+        <div class="hero-container-right">
+          <div class="hero-image">
+            <img
+              class="img-display"
+              src="./assets/images/hero-img-1.jpg"
+              alt="hero image 1"
+            />
+            <div class="img-author">
+              <img src="./assets/icons/at.svg" alt="@ icon" />
+              <span>by Guzmán Barquín on Unsplash</span>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              class="img-display"
+              src="./assets/images/hero-img-2.jpg"
+              alt="hero image 2"
+            />
+            <div class="img-author">
+              <img src="./assets/icons/at.svg" alt="@ icon" />
+              <span>by Ryan Spencer on Unsplash</span>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              class="img-display"
+              src="./assets/images/hero-img-3.jpg"
+              alt="hero image 3"
+            />
+            <div class="img-author">
+              <img src="./assets/icons/at.svg" alt="@ icon" />
+              <span> by S O C I A L . C U T on Unsplash</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="popular-work">
+        <div class="header-title">
+          <h1>Popular works</h1>
+          <img
+            src="./assets/icons/up-right-arrow.svg"
+            alt="up right arrow icon"
+          />
+        </div>
+        <div class="header-type">
+          <div class="type">
+            <img
+              src="./assets/icons/orange-pattern.svg"
+              alt="orange pattern image"
+            />
+            <div class="type-description">
+              <h1>Orange Pattern</h1>
+              <span>São Paulo, Brazil</span>
+              <span>by Estúdio Bloom on Unsplash</span>
+            </div>
+          </div>
+          <div class="type">
+            <img
+              src="./assets/icons/blue-pattern.svg"
+              alt="blue pattern image"
+            />
+            <div class="type-description">
+              <h1>Blue Pattern</h1>
+              <span>São Paulo, Brazil</span>
+              <span>by Estúdio Bloom on Unsplash</span>
+            </div>
+          </div>
+          <div class="type">
+            <img
+              src="./assets/icons/lemon-pattern.svg"
+              alt="lemon pattern image"
+            />
+            <div class="type-description">
+              <h1>Lemon Pattern</h1>
+              <span>São Paulo, Brazil</span>
+              <span>by Estúdio Bloom on Unsplash</span>
+            </div>
+          </div>
+        </div>
+        <div class="divider"></div>
       </section>
     </main>
   </body>
