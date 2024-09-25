@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
+}
+
+main {
+  margin-top: 108px;
+}
+
+/* For testing */
+@media (min-width: 1281px) {
+  .page {
+    width: 1050px;
+    margin: 0px auto;
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 780px) and (max-width: 1280px) {
+  .page {
+    width: 1040px;
+    margin: 0px auto;
+    padding-top: 40px;
+  }
+}
+
+/* Check margin */
+nav {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Check list styling */
+nav ul {
+  display: flex;
+  gap: 48px;
+
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Check list link style */
+nav ul li a {
+  font-size: 18px;
+  color: #1f1534;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Make text bold on hover */
+nav ul li a:hover {
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+/* Check margin and font styling */
+.text h1 {
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+}
+
+/* Check font styling */
+.text h1 span {
+  font-weight: 700;
+  color: #89c5cc;
+}
+
+/* Check font styling */
+.text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+
+  margin: 16px 0 48px 0;
+}
+
+/* Check font styling and make sure the button is rounded */
+.text button {
+  display: flex;
+  gap: 8px;
+
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: rgba(249, 249, 249, 1);
+  border: none;
+  border-radius: 4px;
+  padding: 18px 32px;
+  background-color: rgba(105, 185, 157, 1);
+}
+
+/* Handle when user hover on the button */
+.text button:hover {
+  background-color: #4a9a7e;
+}
+
+/* Check the text styling */
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Check the text styling */
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
