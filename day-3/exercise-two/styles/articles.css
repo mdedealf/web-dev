@@ -20,6 +20,12 @@
   line-height: 24px;
   color: #333333;
   text-decoration: underline;
+  cursor: pointer;
+  transition: text-decoration 1s;
+}
+
+.article-navigation a:hover {
+  text-decoration: none;
 }
 
 /* Main article section */

@@ -29,6 +29,7 @@ footer {
   line-height: 19px;
   color: #333333;
   cursor: pointer;
+  transition: font-weight 0.05s;
 }
 
 .footer-navigation a:hover {
