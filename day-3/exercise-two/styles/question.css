@@ -1,0 +1,16 @@
+.question-section {
+  height: 166px;
+  background-color: #edecff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0 0 0;
+}
+
+.question-section h1 {
+  font-family: Kaisei Decol;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 400;
+  color: #333333;
+}

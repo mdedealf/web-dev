@@ -1,0 +1,36 @@
+footer {
+  height: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 120px;
+}
+
+.footer-trademark span {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333333;
+}
+
+.footer-navigation {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  column-gap: 60px;
+}
+
+.footer-navigation a {
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.footer-navigation a:hover {
+  font-weight: 400;
+}
