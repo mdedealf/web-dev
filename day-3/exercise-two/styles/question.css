@@ -1,4 +1,4 @@
-.question-section {
+.ask-question {
   height: 166px;
   background-color: #edecff;
   display: flex;
@@ -7,10 +7,19 @@
   margin: 60px 0 0 0;
 }
 
-.question-section h1 {
+.ask-question h1 {
   font-family: Kaisei Decol;
   font-size: 32px;
   line-height: 46px;
   font-weight: 400;
   color: #333333;
+}
+
+.ask-question h1 a {
+  font-family: Kaisei Decol;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 400;
+  color: #656565;
+  text-decoration: underline;
 }
